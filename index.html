@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="inputFile">
+      <div class="input__image">
+        <img src="" height="200">
+        <svg class="imgSvg" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z">
+          </path>
+        </svg>
+      </div>
+      <div class="lable">
+        <label for="files" id="lableBtn" class="lable_btn">Upload Image</label>
+        <input id="files" type="file" onchange="previewFile()">
+        <p>Format: *.jpg, *.png, *.bmp</p>
+        <p>Image will be visible to others after moderation.</p>
+      </div>
+
+    </div>
+    <div class="inputText">
+      <input id="inputText" class="input__text" type="text" placeholder="Name *">
+
+      <p>Up to 50 characters</p>
+    </div>
+    <div class="inputTextarea">
+      <textarea type="text" placeholder="Description"></textarea>
+      <p>Up to 1000 characters</p>
+    </div>
+    <div class="line"></div>
+    <div class="buttons">
+      <a class="primary-btn" href="#">Cencel</a>
+      <a id="secBtn" class="secondary-btn" href="#">Create Pass</a>
+    </div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
