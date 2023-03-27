@@ -28,14 +28,15 @@ function interval(){
   setTimeout(pulseBtn,0);
   setTimeout(addValue,2000);
   setTimeout(pulseSecBtn,4000);
-  setTimeout(removeAttr,6000);
+  setTimeout(removeAttr,5000);
   // setInterval(()=> {
   //   window.location.reload();
   // },9000)
 };
 setInterval(() => {
   interval();
-}, 6000);
+}, 5000);
+
 
   
 
