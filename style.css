@@ -163,21 +163,93 @@ body{
 }
 .wrapper2{
   padding: 0;
+  min-width: 596px;
+}
+.frontBLock2{
+  height: 65%;
 }
 .flex_wrap{
   display: flex;
-  justify-content: space-between;
 
 }
 .sidebar{
+  flex: 35%;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
   border-right: 2px solid rgb(152, 152, 152);
 }
-.content{}
+.sidebar .title{
+  color: #989898;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 7px;
+}
+.sidebar .subtitle{
+  color: #989898;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.sidebar ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar ul li{
+  color: #c8c8c8;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+.sidebar ul .li-active{
+  font-weight: 700;
+  background-color: #292D2F;
+}
+.sidebar .li-before{
+  color: #c8c8c8;
+  font-size: 14px;
+}
+.content{
+  flex: 65%;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+.content .content_title{
+  color: #c8c8c8;
+  margin-top: 0;
+}
+.content p{
+  color: #c8c8c8;
+  font-size: 14px;
+}
+.inputRob{
+  outline: none;
+  color: #c8c8c8;
+  padding-left: 20px;
+  background-color: #2C2C2C;
+  border: none;
+  height: 30px;
+  width: calc(70% - 20px);
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #fff;
+}
+.switch_wrap{
+  display: flex;
+  align-items: center;
+}
+.switch_wrap .text{
+  margin-left: 10px;
+}
 .switch-btn {
   display: inline-block;
-  width: 62px;
+  width: 26px;
   /* ширина переключателя */
-  height: 24px;
+  height: 12px;
   /* высота переключателя */
   border-radius: 12px;
   /* радиус скругления */
@@ -195,35 +267,26 @@ body{
 
 .switch-btn::after {
   content: "";
-  height: 36px;
-  /* высота кнопки */
-  width: 36px;
-  /* ширина кнопки */
+  height: 17px;
+  width: 17px;
   border-radius: 18px;
-  /* радиус кнопки */
   background: #fff;
-  /* цвет кнопки */
-  top: -6px;
-  /* положение кнопки по вертикали относительно основы */
-  left: -6px;
-  /* положение кнопки по горизонтали относительно основы */
+  top: -2px;
+  left: -2px;
   transition-duration: 300ms;
-  /* анимация */
   box-shadow: 0 0 10px 0 #999999;
-  /* тень */
   position: absolute;
   z-index: 1;
 }
 
 .switch-on {
-  background: #fff;
-  box-shadow: inset 0 0 10px 0 #999999;
+  background: #1E516F;
   /* тень */
 }
 
 .switch-on::after {
-  left: 30px;
-  background: #118c4e;
+  left: 12px;
+  background: #2BB1FF;
 }
 /* Animation */
 
