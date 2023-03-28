@@ -180,7 +180,8 @@
 
 .wrapper2 {
   padding: 0;
-  min-width: 596px;
+  width: 658px;
+  height: 100%;
 }
 
 .frontBLock2 {
@@ -209,6 +210,7 @@
 }
 
 .sidebar .subtitle {
+  text-align: left;
   color: #989898;
   font-size: 14px;
   text-transform: uppercase;
