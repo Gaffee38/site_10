@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/code.css">
+</head>
+
+<body>
+  <div class="block">
+    <a href="index.html" class="close">
+      <img src="img/close.svg" alt="">
+    </a>
+    <div class="block_content">
+      <h1 class="title-block">Измените <span>Game Pass</span></h1>
+      <p class="block_text">Включите «Item for sale» и установите цену <a href="#">36 R$</a></p>
+      <div class="block-wrapper">
+        <div class="wrapper wrapper2">
+          <div class="frontBLock frontBLock2"></div>
+          <div class="flex_wrap">
+            <div class="sidebar">
+              <p class="title">robuxshop.ru</p>
+              <div class="line"></div>
+              <h1 class="subtitle">Datail</h1>
+              <ul>
+                <li>Basic Settings</li>
+                <li class="li-active">Sale</li>
+                <li class="li-before">Advertise</li>
+              </ul>
+              <h1 class="subtitle">related links</h1>
+              <p class="li-before">My Inventory</p>
+            </div>
+            <div class="content">
+              <h1 class="content_title">Sales</h1>
+              <p>Total sales: 0</p>
+              <p>Sold in last 7 days: 0</p>
+              <div class="switch_wrap">
+                <div class="switch-btn" id="switcher"></div>
+                <p class="text">Item for Sale</p>
+              </div>
+              <div class="input_wrap">
+
+                <div class="inputPlace-wrap inputPlace-wrap2">
+                  <div class="input_img"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall" focusable="false"
+                      viewBox="0 0 28 28" aria-hidden="true">
+                      <path
+                        d="M23.402,5.573C25.009,6.501 26,8.217 26,10.073L26,17.929C26,19.786 25.009,21.501 23.402,22.429L16.597,26.358C14.99,27.286 13.009,27.286 11.402,26.358L4.597,22.429C2.99,21.501 2,19.786 2,17.929L2,10.073C2,8.217 2.99,6.501 4.597,5.573L11.402,1.645C13.009,0.717 14.99,0.717 16.597,1.645L23.402,5.573ZM12.313,3.428L5.686,7.254C4.642,7.857 4,8.97 4,10.176L4,17.827C4,19.032 4.642,20.146 5.686,20.749L12.313,24.574C13.357,25.177 14.642,25.177 15.686,24.574L22.313,20.749C23.357,20.146 24,19.032 24,17.827L24,10.176C24,8.97 23.357,7.857 22.313,7.254L15.686,3.428C14.642,2.825 13.357,2.825 12.313,3.428ZM15.385,5.566L20.614,8.584C21.471,9.079 22,9.994 22,10.985L22,17.022C22,18.012 21.471,18.927 20.614,19.422L15.385,22.441C14.528,22.936 13.471,22.936 12.614,22.441L7.385,19.422C6.528,18.927 6,18.012 6,17.022L6,10.985C6,9.994 6.528,9.079 7.385,8.584L12.614,5.566C13.471,5.071 14.528,5.071 15.385,5.566ZM11,17.003L17,17.003L17,11.003L11,11.003L11,17.003Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <input id="inputText" class="inputRob" type="text">
+                  <p class="place-p1 placegolder" id="placehold1">Price in Robux</p>
+                  <p class="place-p2 place_active place_notActive" id="placehold2">100</p>
+                </div>
+                <div class="texts">
+                  <p>Creator earnings (70%)</p>
+                  <p class="robImg">
+                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 28 28"
+                      aria-hidden="true">
+                      <path
+                        d="M23.402,5.573C25.009,6.501 26,8.217 26,10.073L26,17.929C26,19.786 25.009,21.501 23.402,22.429L16.597,26.358C14.99,27.286 13.009,27.286 11.402,26.358L4.597,22.429C2.99,21.501 2,19.786 2,17.929L2,10.073C2,8.217 2.99,6.501 4.597,5.573L11.402,1.645C13.009,0.717 14.99,0.717 16.597,1.645L23.402,5.573ZM12.313,3.428L5.686,7.254C4.642,7.857 4,8.97 4,10.176L4,17.827C4,19.032 4.642,20.146 5.686,20.749L12.313,24.574C13.357,25.177 14.642,25.177 15.686,24.574L22.313,20.749C23.357,20.146 24,19.032 24,17.827L24,10.176C24,8.97 23.357,7.857 22.313,7.254L15.686,3.428C14.642,2.825 13.357,2.825 12.313,3.428ZM15.385,5.566L20.614,8.584C21.471,9.079 22,9.994 22,10.985L22,17.022C22,18.012 21.471,18.927 20.614,19.422L15.385,22.441C14.528,22.936 13.471,22.936 12.614,22.441L7.385,19.422C6.528,18.927 6,18.012 6,17.022L6,10.985C6,9.994 6.528,9.079 7.385,8.584L12.614,5.566C13.471,5.071 14.528,5.071 15.385,5.566ZM11,17.003L17,17.003L17,11.003L11,11.003L11,17.003Z">
+                      </path>
+                    </svg>
+                    <span id="span1" class="commission">--</span>
+                    <span id="span2" class="commission-none">70</span>
+                  </p>
+                </div>
+                <div class="line"></div>
+                <div class="buttons">
+                  <a class="primary-btn" href="#">Cencel</a>
+                  <a id="secBtnRob" class="secondary-btn" href="#">Create Pass</a>
+                </div>
+              </div>
+
+              <!-- switch-on для включения -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="button" class="btn">
+        <a href="index3.2.html" class="button active">Купить</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/app3.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

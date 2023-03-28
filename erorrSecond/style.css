@@ -1,0 +1,119 @@
+
+body{
+  overflow-y: hidden;
+  background-color: #BBBFCB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.block-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.block{
+  position: relative;
+  min-width: 660px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+}
+.close{
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  transform: rotate(90deg);
+}
+.title-block{
+  text-align: center;
+  color: #23272A;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+.title-block span{
+  color: #5B7EFB;
+}
+.block_text{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28.8px;
+}
+.block_text a{
+  color: #7C98FC;
+  text-decoration: none;
+  border-bottom: 1px solid #7C98FC;
+}
+.item{
+  margin: 0 auto;
+  width: 281px;
+  height: 340px;
+  overflow: hidden;
+  background: rgba(255, 200, 188, 0.8);
+  border-radius: 24px;
+}
+.item_active{
+  border: 3px solid #5B7EFB;
+}
+.btn{
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  background-color: rgba(91, 126, 251, 0.4);
+  border-radius: 100px;
+  margin-top: 30px;
+  transition: .2s;
+}
+.active {
+  background-color: #5B7EFB;
+}
+.active:hover{
+  background-color: #6485fa;
+}
+.button{
+  padding: 20px 98px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.blocker{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+.notActive{
+  display: none;
+}
+.erorr{
+  background-color: #FF6D6D;
+  padding: 14px 32px;
+  color: #fff;
+  border-radius: 18px;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(120px);
+  transition: .2s;
+}
+.erorr_active{
+  opacity: 1;
+  transform: translateY(0px);
+}

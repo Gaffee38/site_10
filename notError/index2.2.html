@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/code.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="block">
+    <a href="index.html" class="close">
+      <img src="img/close.svg" alt="">
+    </a>
+    <div class="block_content">
+      <h1 class="title-block">Создайте <span>Game Pass</span></h1>
+      <p class="block_text">Если у Вас нет картинки, можете использовать <a href="#">нашу</a></p>
+      <div class="block-wrapper">
+        <div class="wrapper">
+          <div class="frontBLock"></div>
+          <div class="inputFile">
+            <div class="input__image">
+              <svg class="imgSvg" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z">
+                </path>
+              </svg>
+            </div>
+            <div class="lable">
+              <button id="lableBtn" class="upload-btn" href="#">Upload Image</button>
+
+              <p>Format: *.jpg, *.png, *.bmp</p>
+              <p>Image will be visible to others after moderation.</p>
+            </div>
+
+          </div>
+          <div class="inputText">
+            <div class="inputPlace-wrap">
+              <input id="inputText" class="input__text" type="text">
+              <p class="place-p1 placegolder" id="placehold1">Name *</p>
+              <p class="place-p2 place_active place_notActive" id="placehold2">NamePicture</p>
+            </div>
+
+            <p>Up to 50 characters</p>
+          </div>
+          <div class="inputTextarea">
+            <textarea type="text" placeholder="Description"></textarea>
+            <p>Up to 1000 characters</p>
+          </div>
+          <div class="line"></div>
+          <div class="buttons">
+            <a class="primary-btn" href="#">Cencel</a>
+            <a id="secBtn" class="secondary-btn" href="#">Create Pass</a>
+          </div>
+        </div>
+      </div>
+      <div id="button" class="btn">
+        <a href="index3.html" class="button active">Создать</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
