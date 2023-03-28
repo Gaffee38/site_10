@@ -8,9 +8,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/code.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class="erorr" id="error">
+    <p>Не верная цена, проверьте и настройте цену на 36R$</p>
+  </div>
   <div class="block">
     <a href="index.html" class="close">
       <img src="img/close.svg" alt="">
@@ -82,12 +88,12 @@
 
         </div>
       </div>
-      <div id="button" class="btn">
-        <a href="index3.1.html" class="button active">Изменить</a>
+      <div id="button" class="btn" onclick="btnOnclickErorr()">
+        <a href="#" class="button active">Продолжить</a>
       </div>
     </div>
   </div>
-  <script src="js/app3.js"></script>
+  <script src="js/app.js"></script>
   <script src="js/main.js"></script>
 </body>
 

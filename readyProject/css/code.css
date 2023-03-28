@@ -76,8 +76,23 @@
   color: #CBCBCB;
   font-size: 14px;
 }
-
+.inputPlace-wrap{
+  position: relative;
+}
+.inputPlace-wrap p{
+  color: #CBCBCB;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.place_notActive{
+  display: none;
+}
+.placegolder-notActive{
+  display: none;
+}
 .inputText {
+  position: relative;
   margin-bottom: 20px;
 }
 
@@ -194,12 +209,22 @@
 }
 
 .sidebar {
+  position: relative;
   flex: 35%;
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 20px;
   border-right: 2px solid rgb(152, 152, 152);
+}
+.sidebar::before{
+  content: 'pass';
+  text-transform: uppercase;
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  font-size: 10px;
+  color: #989898;
 }
 
 .sidebar .title {
@@ -214,6 +239,8 @@
   color: #989898;
   font-size: 14px;
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 .sidebar ul {
@@ -270,6 +297,10 @@
   border-radius: 3px 3px 0 0;
   border-bottom: 1px solid #fff;
 }
+.inputPlace-wrap2 p{
+  left: 30px;
+  top: -4px;
+}
 
 .input_wrap {
   position: relative;
@@ -298,6 +329,19 @@
   fill: #c8c8c8;
   width: 20px;
   height: 20px;
+}
+.robImg span{
+  margin-left: 3px;
+  font-size: 16px;
+}
+.commission-none{
+  display: none;
+}
+.notActive-span{
+  display: none;
+}
+.active-span{
+  display: block;
 }
 
 .switch_wrap {
