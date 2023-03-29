@@ -300,8 +300,7 @@
 }
 @media (max-width:389px){
   .inputPlace-wrap2 p {
-    left: 30px;
-    top: -1px;
+    top: -1px !important;
   }
 }
 
