@@ -192,6 +192,11 @@ body{
     font-size: 13px;
   }
 }
+@media (max-width:414px){
+  .inputPlace-wrap2 p {
+    top: -1px !important;
+  }
+}
 @media (max-width:375px) {
   
   .block{
@@ -227,3 +232,4 @@ body{
     margin-bottom: 30px;
   }
 }
+
