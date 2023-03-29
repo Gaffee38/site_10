@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 85%;
+  height: 100%;
   z-index: 9999;
 }
 
@@ -83,7 +83,7 @@
   color: #CBCBCB;
   position: absolute;
   left: 0;
-  top: 9px;
+  top: 15px;
 }
 .place_notActive{
   display: none;
@@ -199,9 +199,6 @@
   height: 100%;
 }
 
-.frontBLock2 {
-  height: 65%;
-}
 
 .flex_wrap {
   display: flex;
@@ -299,7 +296,7 @@
 }
 .inputPlace-wrap2 p{
   left: 30px;
-  top: -4px;
+  top: -3px;
 }
 
 .input_wrap {
@@ -336,6 +333,7 @@
 }
 .commission-none{
   display: none;
+  margin-top: 3px;
 }
 .notActive-span{
   display: none;

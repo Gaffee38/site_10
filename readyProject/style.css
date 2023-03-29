@@ -1,4 +1,18 @@
-
+@font-face {
+  font-family: 'GraphikLCG_reg';
+  src: url(fonts/GraphikLCG-Regular.woff);
+}
+@font-face {
+  font-family: 'GraphikLCG_bold';
+  src: url(fonts/GraphikLCG-Bold.woff);
+}
+@font-face {
+  font-family: 'GraphikLCG_black';
+  src: url(fonts/GraphikLCG-Black.woff);
+}
+h1{
+  font-family: 'GraphikLCG_black';
+}
 body{
   overflow-y: hidden;
   background-color: #BBBFCB;
@@ -7,7 +21,7 @@ body{
   justify-content: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'GraphikLCG_reg';
 }
 .block-wrapper{
   width: 100%;
@@ -30,6 +44,7 @@ body{
   transform: rotate(90deg);
 }
 .title-block{
+  font-family: 'GraphikLCG_black';
   text-align: center;
   color: #23272A;
   font-size: 40px;
@@ -112,8 +127,103 @@ body{
   opacity: 0;
   transform: translateY(120px);
   transition: .2s;
+  z-index: 999;
 }
 .erorr_active{
   opacity: 1;
   transform: translateY(0px);
+}
+.li-before{
+  display: flex;
+  align-items: center;
+}
+.link-svg{
+  fill: #BBBFCB;
+  height: 22px;
+  width: 22px;
+  margin-left: 3px;
+}
+@media (max-width:796px) {
+  .block{
+    width: 100%;
+    min-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .wrapper{
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media (max-width:679px) {
+  .title-block{
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .block_text{
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .item{
+    width: 215px;
+    height: 280px;
+  }
+  .content p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width:562px) {
+  .sidebar{
+    display: none;
+  }
+}
+@media (max-width:490px) {
+  .btn {
+    width: 100%;
+  }
+  .button {
+    padding: 13px 0;
+  }
+  .erorr{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .erorr p{
+    font-size: 13px;
+  }
+}
+@media (max-width:375px) {
+  
+  .block{
+    padding: 25px;
+    border-radius: 35px;
+  }
+  .lable p{
+    margin-top: 5px !important;
+    margin-bottom: 0;
+    font-size: 12px !important;
+  }
+  .inputText{
+    margin-bottom: 10px !important;
+  }
+  .inputTextarea{
+    margin-bottom: 15px !important;
+  }
+  .btn{
+    margin-top: 15px;
+  }
+}
+@media (max-height:653px) {
+  body {
+    overflow-y: scroll;
+    height: 100% !important;
+  }
+  .block {
+    padding: 25px;
+    padding-top: 20px;
+    border-radius: 35px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
