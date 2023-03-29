@@ -298,12 +298,6 @@
   left: 30px;
   top: -3px;
 }
-@media (max-width:414px){
-  .inputPlace-wrap2 p {
-    top: -1px !important;
-  }
-}
-
 .input_wrap {
   position: relative;
 }
