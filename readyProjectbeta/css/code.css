@@ -14,8 +14,10 @@
   background-color: #171717;
   border-radius: 24px;
   padding: 30px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: -15px;
+  margin-bottom: -20px;
   width: 596px;
   height: 380px;
 }
@@ -199,6 +201,8 @@
 }
 
 .wrapper2 {
+  margin-top: -10px;
+  margin-bottom: -10px;
   font-family: 'Gotham_book' !important;
   padding: 0;
   width: 658px;
