@@ -2,6 +2,7 @@ const item = document.getElementById('item')
 const button = document.getElementById('button')
 const blocker = document.getElementById('blocker')
 const erorr = document.getElementById('error')
+const block_wrap = document.getElementById('block_wrap')
 
 
 function btnOnclick (){
@@ -14,4 +15,7 @@ function btnOnclickErorr (){
   setTimeout(()=>{
     erorr.classList.remove('erorr_active');
   },3000)
+}
+function closeBnt(){
+  block_wrap.classList.add('closeBlock')
 }

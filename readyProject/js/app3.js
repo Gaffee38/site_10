@@ -22,7 +22,7 @@ function timeout () {
     placehold2.classList.toggle('place_notActive');
   },2500);
   setTimeout(()=>{
-    secBtnRob.classList.toggle("active");
+    secBtnRob.classList.toggle("active2");
   },2500);
   setTimeout(()=>{
     secBtnRob.classList.toggle("animationButtons");

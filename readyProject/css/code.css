@@ -12,6 +12,7 @@
   background-color: #171717;
   border-radius: 24px;
   padding: 30px;
+  padding-bottom: 0px;
   width: 596px;
   height: 380px;
 }
@@ -174,6 +175,7 @@
   padding: 5px 10px;
   position: relative;
   background-color: #565656;
+  
   border: 1px solid #565656;
 }
 
@@ -185,7 +187,7 @@
   background-color: #646464;
 }
 
-.active {
+.active2 {
   background-color: #2BB1FF;
 }
 

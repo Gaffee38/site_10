@@ -15,16 +15,18 @@ function pulseSecBtn(){
 
 
 window.onload = function(){
-  interval();
+  setTimeout(()=>{
+    interval();
+  },1000)
 }
 function interval(){
   setTimeout(pulseBtn,0);
-  setTimeout(addValue,4000);
-  setTimeout(pulseSecBtn,6000);
+  setTimeout(addValue,1000);
+  setTimeout(pulseSecBtn,2500);
 };
 setInterval(() => {
   interval();
-}, 5000);
+}, 4000);
 
 
 

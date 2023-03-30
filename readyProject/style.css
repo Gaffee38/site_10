@@ -33,11 +33,16 @@ body{
   min-width: 660px;
   background-color: #fff;
   padding: 40px;
+  padding-bottom: 20px;
   border-radius: 60px;
   display: flex;
   justify-content: center;
 }
+.closeBlock{
+  display: none;
+}
 .close{
+  cursor: pointer;
   position: absolute;
   right: -12px;
   top: -12px;
@@ -50,7 +55,7 @@ body{
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   margin-top: 0;
 }
 .title-block span{
@@ -63,10 +68,11 @@ body{
   font-weight: 600;
   line-height: 28.8px;
 }
-.block_text a{
+.block_text span{
+  font-family: 'GraphikLCG_bold';
   color: #7C98FC;
   text-decoration: none;
-  border-bottom: 1px solid #7C98FC;
+  border-bottom: 2px solid #7C98FC;
 }
 .item{
   margin: 0 auto;
@@ -75,6 +81,7 @@ body{
   overflow: hidden;
   background: rgba(255, 200, 188, 0.8);
   border-radius: 24px;
+  border: 3px solid transparent;
 }
 .item_active{
   border: 3px solid #5B7EFB;
